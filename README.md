@@ -2,12 +2,10 @@
 #Harry Potter: Project two!
 ##Your source for everything HP!
 
-#**This README consists of a paper prototype, a user story, some manual test cases and an ERD
+#**This README consists of two paper prototypes: A basic model and a complex one for a stretch goal, a user story, some manual test cases and an ERD (one for stretch and basic as well)
+##...
 
 #Requirements
-
-__Your work must:__
-
 - Have [__user stories__](https://github.com/ga-students/ADI_SM_1/tree/master/work/04-week/07-p2-prep/user-stories),  [__paper prototypes__](https://en.wikipedia.org/wiki/Paper_prototyping),  and an [__ERD__](http://ga-students.github.io/adi_lesson_slides/04-week/db-intro/slideshow.html#1).
 - Used __source control__ as [expected for the phase of the program you’re in](https://github.com/ga-students/ADI_SM_1/tree/master/work/04-week/07-p2-prep/git-workflow). 
 - Show appropriate use of __comments__, explaining the functionality behind sections of code.
