@@ -1,9 +1,9 @@
 #![](photos/IMG_0132.PNG)
 #Harry Potter: Project two!
 ##Your source for everything HP!
-##"Everything you'll ever need to know about the wonderful world of Harry Potter"
 
-#**This README consists of a paper prototype, a user story, some manual test cases and an ERD to all help illustrate the app's use case and to better automate the process for me and Project 2.
+#**This README consists of a paper prototype, a user story, some manual test cases and an ERD
+
 #General Assembly Requirements
 
 __Your work must:__
