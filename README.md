@@ -1,4 +1,4 @@
-#![](photos/IMG_0132.png)
+#![](photos/IMG_0132.PNG)
 #Harry Potter: Project two!
 ##Your source for everything HP!
 ##"Everything you'll ever need to know about the wonderful world of Harry Potter"
