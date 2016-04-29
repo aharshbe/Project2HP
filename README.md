@@ -33,6 +33,9 @@ __Stretch goals:__
 #![](prototypeR2/p2pg2.jpg)
 #![](prototypeR2/p2pg3.jpg)
 ##...
+#User story and manual test cases (for basic requirments):
+#![](userStory/UserStoryRev2Basic.jpg)
+##...
 #Paper Protype: Ambitious
 ##(For if I complete the first wonderfuly) 
 #![](prototype/page1.jpg)
