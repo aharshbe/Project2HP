@@ -41,3 +41,6 @@ __Stretch goals:__
 ![](ERD/HarryPotterSQLite.png)
 ###Below is a ref to the actual database config in SQLite: 
 
+#**I DO NOT OWN any of the images or representations of Harry Potter, his world or the trademarks related (just a super mega-fan/huble hobbist), I do not intend to sell this for money, and if submitted for free, I will ask for permission first 
+#--End of protections :-) 
+
