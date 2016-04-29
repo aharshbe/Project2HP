@@ -36,10 +36,11 @@ __Stretch goals:__
 ##...
 #User story and manual test case:
 #![](userStory/userstory.jpg)
+#####**User Story PDF file can be found in 'userStory' folder entitled 'HarryPotterAppT_UserStory.pdf' if it's difficult to see here.
 ##...
 #ERD:
 ![](ERD/HarryPotterSQLite.png)
-###Below is a ref to the actual database config in SQLite: 
+####Actual reference to the database config file in SQLite can be found in the ERD folder entitled: hpTableSQLite 
 
 #**I DO NOT OWN any of the images or representations of Harry Potter, his world or the trademarks related (just a super mega-fan/huble hobbist), I do not intend to sell this for money, and if submitted for free, I will ask for permission first 
 #--End of protections :-) 
