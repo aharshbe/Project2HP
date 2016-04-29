@@ -41,7 +41,7 @@ __Stretch goals:__
 #![](prototype/page1.jpg)
 #![](prototype/page2.jpg)
 ##...
-#User story and manual test cases:
+#User story and manual test cases (for stretch goal)
 #![](userStory/userstory.jpg)
 #####**User Story PDF file can be found in 'userStory' folder entitled 'HarryPotterAppT_UserStory.pdf' if it's difficult to see here.
 ##...
