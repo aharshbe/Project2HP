@@ -4,7 +4,7 @@
 
 #**This README consists of a paper prototype, a user story, some manual test cases and an ERD
 
-#General Assembly Requirements
+#Requirements
 
 __Your work must:__
 
@@ -29,8 +29,14 @@ __Stretch goals:__
 - **Bonus**: Incorporate Material Design principles into your UI 
 - **Bonus**: Add more complexity to the user's searches (possibly allowing more than one search criteria at a time) 
 
+#Paper Protype: Realistic
+##(To meet requirements, basic) 
+#![](prototypeR2/p2pg1.jpg)
+#![](prototypeR2/p2pg2.jpg)
+#![](prototypeR2/p2pg3.jpg)
 ##...
-#Paper Protype:
+#Paper Protype: Ambitious
+##(For if I complete the first wonderfuly) 
 #![](prototype/page1.jpg)
 #![](prototype/page2.jpg)
 ##...
