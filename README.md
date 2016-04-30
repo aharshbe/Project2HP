@@ -34,7 +34,7 @@ __Stretch goals:__
 #![](prototypeR2/p2pg3.jpg)
 ##...
 #User story and manual test cases (for basic requirments):
-#![](userStory/UserStoryRev2Basic.jpg)
+#![](userStory/UserStory2.png)
 ##...
 #ERD Basic version:
 ![](ERDrev2/HarryPotterSQLite.png)
@@ -44,7 +44,7 @@ __Stretch goals:__
 #![](prototype/page2.jpg)
 ##...
 #User story and manual test cases (for stretch goal)
-#![](userStory/userstory.jpg)
+#![](userStory/UserStory1.png)
 #####**User Story PDF file can be found in 'userStory' folder entitled 'HarryPotterAppT_UserStory.pdf' if it's difficult to see here.
 ##...
 #ERD:
