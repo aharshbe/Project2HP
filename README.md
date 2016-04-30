@@ -37,7 +37,7 @@ __Stretch goals:__
 #![](userStory/UserStoryRev2Basic.jpg)
 ##...
 #ERD Basic version:
-![](ERDRev2/HarryPotterSQLite.png)
+![](ERDrev2/HarryPotterSQLite.png)
 #Paper Protype: Ambitious
 ##(For if I complete the first wonderfuly) 
 #![](prototype/page1.jpg)
