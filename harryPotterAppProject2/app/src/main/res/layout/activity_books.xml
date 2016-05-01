@@ -34,7 +34,7 @@
     <ImageView
         android:layout_width="90dp"
         android:layout_height="120dp"
-        android:id="@+id/book1cover"g
+        android:id="@+id/book1cover"
         android:background="@drawable/book1hp"
         android:layout_below="@+id/bookstitle"
         android:layout_alignRight="@+id/bookstitle"
