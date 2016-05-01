@@ -32,4 +32,10 @@ public class QuotesActivity extends AppCompatActivity {
         Intent intent = new Intent(QuotesActivity.this, dobbyDescription.class);
         startActivity(intent);
     }
-}
+
+    public void clickingsnape(View view) {
+        Intent intent = new Intent(QuotesActivity.this, snapeDescription.class);
+        startActivity(intent);
+        }
+    }
+

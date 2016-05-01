@@ -28,7 +28,8 @@
         <activity android:name=".bookDescription3" />
         <activity android:name=".QuotesActivity" />
         <activity android:name=".quoteDescription" />
-        <activity android:name=".dobbyDescription"></activity>
+        <activity android:name=".dobbyDescription" />
+        <activity android:name=".snapeDescription"></activity>
     </application>
 
 </manifest>
