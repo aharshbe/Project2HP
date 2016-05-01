@@ -20,4 +20,11 @@ public class QuotesActivity extends AppCompatActivity {
         Intent intent = new Intent(QuotesActivity.this, MainActivity.class);
         startActivity(intent);
     }
+
+    //Adds intent to go over to description for dumbledoor
+
+    public void clickingdumbledore(View view) {
+        Intent intent = new Intent(QuotesActivity.this, quoteDescription.class);
+        startActivity(intent);
+    }
 }
