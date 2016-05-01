@@ -27,7 +27,8 @@
         <activity android:name=".bookDescription2" />
         <activity android:name=".bookDescription3" />
         <activity android:name=".QuotesActivity" />
-        <activity android:name=".quoteDescription"></activity>
+        <activity android:name=".quoteDescription" />
+        <activity android:name=".dobbyDescription"></activity>
     </application>
 
 </manifest>

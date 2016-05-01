@@ -27,4 +27,9 @@ public class QuotesActivity extends AppCompatActivity {
         Intent intent = new Intent(QuotesActivity.this, quoteDescription.class);
         startActivity(intent);
     }
+
+    public void goingtodobby(View view) {
+        Intent intent = new Intent(QuotesActivity.this, dobbyDescription.class);
+        startActivity(intent);
+    }
 }
