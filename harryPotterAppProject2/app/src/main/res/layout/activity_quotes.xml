@@ -15,7 +15,7 @@
         android:layout_height="110dp"
         android:id="@+id/quotetitle"
         android:background="@drawable/quotes"
-        android:onClick="whenbooksclicked"/>
+        android:onClick="clickingquotes"/>
     <SearchView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,8 +32,7 @@
         android:background="@drawable/dumbledore"
         android:layout_below="@+id/quotetitle"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="opendescription1"/>f
+        android:layout_alignParentStart="true" />
     <ImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -50,8 +49,7 @@
         android:background="@drawable/snapetext"
         android:layout_below="@+id/char1"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="opendescription2"/>
+        android:layout_alignParentStart="true" />
     <ImageView
         android:layout_width="150dp"
         android:layout_height="120dp"
@@ -69,8 +67,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="34dp"
-        android:onClick="opendescription3"/>
+        android:layout_marginBottom="34dp" />
     <ImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
