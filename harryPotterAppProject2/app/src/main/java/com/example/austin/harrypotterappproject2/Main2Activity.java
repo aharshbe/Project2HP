@@ -1,5 +1,6 @@
 package com.example.austin.harrypotterappproject2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,17 +22,23 @@ public class Main2Activity extends AppCompatActivity {
 
     public void whenClickedmovie1(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Movie 1", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
+        startActivity(intent);
     }
 
     //Creates an OnClick event for intent the description of movie 2 textView
 
     public void whenClickedmovie2(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Movie 2", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
+        startActivity(intent);
     }
 
     //Creates an OnClick event for intent the description of movie 3 textView
 
     public void whenClickedmovie3(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Movie 3", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
+        startActivity(intent);
     }
 }
