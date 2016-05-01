@@ -30,4 +30,9 @@ public class BooksActivity extends AppCompatActivity {
         Intent intent = new Intent(BooksActivity.this, bookDescription2.class);
         startActivity(intent);
     }
+
+    public void opendescription3(View view) {
+        Intent intent = new Intent(BooksActivity.this, bookDescription3.class);
+        startActivity(intent);
+    }
 }
