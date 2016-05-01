@@ -21,7 +21,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".easteregg" />
-        <activity android:name=".Main4Activity" />
         <activity android:name=".BooksActivity" />
         <activity android:name=".bookDescription" />
         <activity android:name=".bookDescription2" />

@@ -15,7 +15,6 @@ public class BooksActivity extends AppCompatActivity {
     }
 
     public void whenbooksclicked(View view) {
-        Toast.makeText(getApplicationContext(), "clicked books title", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(BooksActivity.this, MainActivity.class);
         startActivity(intent);
     }

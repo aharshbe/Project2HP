@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void whenClickedMovies(View view) {
-        Toast.makeText(getApplicationContext(), "clicked HP Movies", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, Main2Activity.class);
         startActivity(intent);
 
@@ -30,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     //Creates an OnClick event for intent on the books textView
 
     public void whenClickedBooks(View view) {
-        Toast.makeText(getApplicationContext(), "clicked HP Books", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, BooksActivity.class);
         startActivity(intent);
     }
@@ -38,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     //Creates an OnClick event for intent on the quotes textView
 
     public void whenClickedQuotes(View view) {
-        Toast.makeText(getApplicationContext(), "clicked HP Quotes", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, QuotesActivity.class);
         startActivity(intent);
     }
@@ -46,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     //Creates a little easterEgg when clicked
 
     public void whenHPClicked(View view) {
-        Toast.makeText(getApplicationContext(), "You found the easter egg!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "You found the easteregg!", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, easteregg.class);
         startActivity(intent);
 
