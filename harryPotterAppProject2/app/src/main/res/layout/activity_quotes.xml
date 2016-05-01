@@ -37,7 +37,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/char1"
-        android:background="@drawable/dumbledore2"
+        android:background="@drawable/dumbledoretwo"
         android:layout_below="@+id/quotetitle"
         android:layout_alignRight="@+id/quotetitle"
         android:layout_alignEnd="@+id/quotetitle"/>
