@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,5 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void whenClickedQuotes(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Quotes", Toast.LENGTH_SHORT).show();
+    }
+
+    //Creates a little easterEgg when clicked
+
+    public void whenHPClicked(View view) {
+        Toast.makeText(getApplicationContext(), "You found the easter egg!", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, easteregg.class);
+        startActivity(intent);
+
+
+
     }
 }
