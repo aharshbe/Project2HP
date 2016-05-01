@@ -59,7 +59,7 @@
     <ImageView
         android:layout_width="90dp"
         android:layout_height="120dp"
-        android:id="@+id/movie2cover"
+        android:id="@+id/movie3cover"
         android:background="@drawable/hpv3c"
         android:layout_alignTop="@+id/movie3"
         android:layout_alignParentRight="true"
