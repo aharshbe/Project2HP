@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void whenClickedMovies(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Movies", Toast.LENGTH_SHORT).show();
-
         Intent intent = new Intent(MainActivity.this, Main2Activity.class);
         startActivity(intent);
 
@@ -32,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void whenClickedBooks(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Books", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, BooksActivity.class);
+        startActivity(intent);
     }
 
     //Creates an OnClick event for intent on the quotes textView
