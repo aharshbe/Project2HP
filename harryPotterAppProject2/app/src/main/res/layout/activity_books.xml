@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:id="@+id/bookstitle"
-        android:background="@drawable/books" />
+        android:background="@drawable/books"
+        android:onClick="whenbooksclicked"/>
     <SearchView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
