@@ -20,7 +20,8 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main3Activity" />
-        <activity android:name=".easteregg"></activity>
+        <activity android:name=".easteregg" />
+        <activity android:name=".Main4Activity"></activity>
     </application>
 
 </manifest>
