@@ -25,4 +25,9 @@ public class BooksActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void opendescription2(View view) {
+        Intent intent = new Intent(BooksActivity.this, bookDescription2.class);
+        startActivity(intent);
+    }
 }

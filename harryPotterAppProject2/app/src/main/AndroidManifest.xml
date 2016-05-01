@@ -23,7 +23,8 @@
         <activity android:name=".easteregg" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".BooksActivity" />
-        <activity android:name=".bookDescription"></activity>
+        <activity android:name=".bookDescription" />
+        <activity android:name=".bookDescription2"></activity>
     </application>
 
 </manifest>
