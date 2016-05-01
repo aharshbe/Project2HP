@@ -18,8 +18,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:background="#F0F8FF"/>
+        android:layout_alignParentEnd="true" />
     <TextView
         android:layout_width="50dp"
         android:layout_height="30dp"
@@ -66,8 +65,7 @@
         android:layout_toEndOf="@+id/Plot"
         android:layout_marginLeft="40dp"
         android:layout_marginStart="40dp"
-        android:layout_below="@+id/plotlistview"
-        android:background="#F0F8FF"/>
+        android:layout_below="@+id/plotlistview" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -76,8 +74,7 @@
         android:layout_alignBottom="@+id/runtime"
         android:layout_alignLeft="@+id/datelistView"
         android:layout_alignStart="@+id/datelistView"
-        android:layout_alignTop="@+id/runtime"
-        android:background="#F0F8FF"/>
+        android:layout_alignTop="@+id/runtime" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -86,8 +83,7 @@
         android:layout_alignLeft="@+id/runtimelistView"
         android:layout_alignStart="@+id/runtimelistView"
         android:layout_below="@+id/runtimelistView"
-        android:layout_above="@+id/grosslistView"
-        android:background="#F0F8FF"/>
+        android:layout_above="@+id/grosslistView" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -95,6 +91,16 @@
         android:id="@+id/grosslistView"
         android:layout_alignLeft="@+id/topquotelistView"
         android:layout_alignStart="@+id/topquotelistView"
-        android:layout_alignTop="@+id/gross"
-        android:background="#F0F8FF"/>
+        android:layout_alignTop="@+id/gross" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Movies"
+        android:id="@+id/backtomovies"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="back"/>
 </RelativeLayout>
