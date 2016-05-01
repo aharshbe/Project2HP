@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "You found the easter egg!", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, easteregg.class);
         startActivity(intent);
-
-
 
     }
 }
