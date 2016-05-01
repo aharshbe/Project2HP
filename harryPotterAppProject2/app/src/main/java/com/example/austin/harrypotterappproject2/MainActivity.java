@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void whenClickedMovies(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Movies", Toast.LENGTH_SHORT).show();
 
-//        Intent intent = new Intent(MainActivity.this, A2.class);
-//        startActivity(intent);
+        Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+        startActivity(intent);
 
     }
 
