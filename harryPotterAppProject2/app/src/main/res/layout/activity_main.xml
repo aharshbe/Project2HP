@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.austin.harrypotterappproject2.MainActivity"
-    android:background="@drawable/background2"
+    android:background="@drawable/background5"
     >
 
     <ImageView
@@ -60,16 +60,16 @@
         android:text=""
         android:id="@+id/quotes"
         android:background="@drawable/quotes"
-        android:layout_alignParentBottom="true"
+        android:onClick="whenClickedQuotes"
+        android:layout_below="@+id/book1"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="whenClickedQuotes" />
+        android:layout_alignParentStart="true" />
     <ImageView
         android:layout_width="130dp"
         android:layout_height="80dp"
         android:id="@+id/quotes1"
         android:background="@drawable/smiles2"
-        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/quotes"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
