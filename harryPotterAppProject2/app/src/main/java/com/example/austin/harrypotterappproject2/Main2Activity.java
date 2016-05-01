@@ -41,4 +41,13 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
         startActivity(intent);
     }
+
+    //Creates onClick for movies title to go to previous acitvity
+
+    public void whenClickedTitleMovie(View view) {
+        Toast.makeText(getApplicationContext(), "clicked HP Movie title", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Main2Activity.this, MainActivity.class);
+        startActivity(intent);
+
+    }
 }
