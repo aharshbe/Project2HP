@@ -71,7 +71,7 @@
         android:layout_marginBottom="34dp"
         android:onClick="opendescription3"/>
     <ImageView
-        android:layout_width="12g0dp"
+        android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/char3"
         android:background="@drawable/dobby"
