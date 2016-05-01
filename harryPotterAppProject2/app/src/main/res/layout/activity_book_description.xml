@@ -17,7 +17,8 @@
         android:id="@+id/backbutton"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="booksback"/>
 
     <TextView
         android:id="@+id/description1"
@@ -51,4 +52,12 @@
         android:layout_below="@+id/bookstitle"
         android:layout_alignRight="@+id/bookstitle"
         android:layout_alignEnd="@+id/bookstitle" />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:id="@+id/coolimage"
+        android:background="@drawable/diagon_alley"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
