@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void whenClickedQuotes(View view) {
         Toast.makeText(getApplicationContext(), "clicked HP Quotes", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, QuotesActivity.class);
+        startActivity(intent);
     }
 
     //Creates a little easterEgg when clicked
