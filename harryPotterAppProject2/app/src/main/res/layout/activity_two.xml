@@ -30,7 +30,8 @@
         android:background="@drawable/hpv1sor"
         android:layout_alignTop="@+id/movie1"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="whenClickedmovie1"/>
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -49,7 +50,8 @@
         android:background="@drawable/hpv22"
         android:layout_alignTop="@+id/movie2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="whenClickedmovie2"/>
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -67,7 +69,8 @@
         android:background="@drawable/hpmv3movie"
         android:layout_alignTop="@+id/movie3"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="whenClickedmovie3"/>
 
     <SearchView
         android:layout_width="wrap_content"

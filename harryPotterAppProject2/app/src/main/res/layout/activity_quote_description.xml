@@ -26,5 +26,6 @@
         android:id="@+id/imagequotedumbl"
         android:background="@drawable/dumbledoorquote"
         android:layout_centerVertical="true"
-        android:layout_below="@+id/textduble"/>
+        android:layout_below="@+id/textduble"
+        android:onClick="clickingdumbledore"/>
 </RelativeLayout>
