@@ -22,7 +22,7 @@
         android:layout_height="70dp"
         android:text=""
         android:id="@+id/mvoies"
-        android:background="@drawable/movies"
+        android:background="@drawable/mvoiesicon"
         android:layout_below="@+id/title"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
