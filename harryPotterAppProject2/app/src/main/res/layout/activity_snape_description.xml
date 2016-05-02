@@ -39,6 +39,8 @@
         android:layout_alignParentStart="true"
         android:text="'     You are here to learn the subtle science and exact art of potion-making. As there is little foolish wand-waving here, many of you will hardly believe this is magic. I don't expect you will really understand the beauty of the softly simmering cauldron with its shimmering fumes, the delicate power of liquids that creep through human veins, bewitching the mind, ensnaring the senses. . . I can teach you how to bottle fame, brew glory, even stopper death — if you aren't as big a bunch of dunderheads as I usually have to teach.'
         ― J.K. Rowling, Harry Potter and the Sorcerer's Stone"
-        android:textColor="#B8860B" />
+        android:textColor="#B8860B"
+        android:textSize="16dp"
+        android:fontFamily="cursive"/>
 
 </RelativeLayout>
