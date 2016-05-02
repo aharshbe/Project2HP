@@ -2,6 +2,7 @@ package com.example.austin.harrypotterappproject2;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -73,4 +74,42 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // Insert the row into the movies table
         db.insert("moviesdescirption", null, values);
     }
+
+
+    public Main2Activity getnameCovers(int id){
+        // Get a reference to the database
+        SQLiteDatabase db = getReadableDatabase();
+
+        // Define a projection, which tells the query to return only the columns mentioned
+        // similar to "SELECT column1, column2, column3"
+        String[] projection = new String[]{ "id", "movie", "cover" };
+
+        // Define a selection, which defines the WHERE clause of the query (but not the values for it)
+        // similar to "WHERE x < 23", only without the value; "WHERE x < ?"
+        String selection = "id = ?";
+
+        // Define the selection values. The ?'s in the selection
+        // The number of values in the following array should equal the number of ? in the where clause
+        String[] selectionArgs = new String[]{ String.valueOf(id) };
+
+        // Make the query, getting the cursor object
+        Cursor cursor = db.query("movies", projection, selection, selectionArgs, null, null, null, null);
+
+        // With the cursor, create a new movie object and return it
+        cursor.moveToFirst();
+
+        String movie1 = cursor.getString( cursor.getColumnIndex("movie") );
+        String movie2 = cursor.getString( cursor.getColumnIndex("movie") );
+        String movie3 = cursor.getString( cursor.getColumnIndex("movie") );
+        String movie1cover = cursor.getString( cursor.getColumnIndex("cover") );
+        String movie2cover = cursor.getString( cursor.getColumnIndex("cover") );
+        String movie3cover = cursor.getString( cursor.getColumnIndex("cover") );
+
+
+        return new Main2Activity(id, movie1,movie2, movie3, movie1cover, movie2cover, movie3cover);
+    }
+}
+
+
+
 }

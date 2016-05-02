@@ -13,11 +13,13 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+
+
 public class Main2Activity extends AppCompatActivity {
 
 
     //References the Image and TextViews so that I can set them against the database
-    TextView movie1 = (TextView) findViewById(R.id.movie1);
+    TextView movie1= (TextView) findViewById(R.id.movie1);
     TextView movie2 = (TextView) findViewById(R.id.movie2);
     TextView movie3 = (TextView) findViewById(R.id.movie3);
     ImageView movie1cover = (ImageView) findViewById(R.id.movie1cover);
