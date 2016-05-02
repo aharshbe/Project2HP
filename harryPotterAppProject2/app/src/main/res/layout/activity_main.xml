@@ -35,7 +35,8 @@
         android:background="@drawable/hpv1sor"
         android:layout_alignTop="@+id/mvoies"
         android:layout_alignLeft="@+id/book1"
-        android:layout_alignStart="@+id/book1" />
+        android:layout_alignStart="@+id/book1"
+        android:onClick="whenClickedMovies"/>
     <TextView
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -53,7 +54,8 @@
         android:background="@drawable/book1hp"
         android:layout_below="@+id/movie1"
         android:layout_alignRight="@+id/quotes1"
-        android:layout_alignEnd="@+id/quotes1" />
+        android:layout_alignEnd="@+id/quotes1"
+        android:onClick="whenClickedBooks"/>
     <TextView
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -71,6 +73,7 @@
         android:background="@drawable/smiles2"
         android:layout_alignTop="@+id/quotes"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="whenClickedQuotes"/>
 
 </RelativeLayout>
