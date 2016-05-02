@@ -41,7 +41,8 @@
         android:background="@drawable/book1hp"
         android:layout_below="@+id/bookstitle"
         android:layout_alignRight="@+id/bookstitle"
-        android:layout_alignEnd="@+id/bookstitle"/>
+        android:layout_alignEnd="@+id/bookstitle"
+        android:onClick="opendescription1"/>
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -59,7 +60,8 @@
         android:background="@drawable/book2cover"
         android:layout_below="@+id/book1cover"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="opendescription2"/>
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -78,6 +80,7 @@
         android:background="@drawable/book3cover"
         android:layout_alignTop="@+id/book3"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="opendescription3"/>
 
 </RelativeLayout>
