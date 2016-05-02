@@ -1,5 +1,6 @@
 package com.example.austin.harrypotterappproject2;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -35,5 +36,22 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL(SQL_DROP_MOVIE_TABLE);
         onCreate(db);
+    }
+
+    public void insert(int id, String plot, String date, String runtime, String topquote, String gross){
+        // Get a reference to the database
+        SQLiteDatabase db = getWritableDatabase();
+
+        // create a new content value to store values
+        ContentValues values = new ContentValues();
+        values.put("id", id);
+        values.put("plot", plot);
+        values.put("date", date);
+        values.put("runtime", runtime);
+        values.put("topquote", topquote);
+        values.put("gross", gross);
+
+        // Insert the row into the movies table
+        db.insert("movies", null, values);
     }
 }
