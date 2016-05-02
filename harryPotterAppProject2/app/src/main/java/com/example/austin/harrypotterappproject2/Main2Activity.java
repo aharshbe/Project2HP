@@ -60,4 +60,15 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
+    //Creates a contructor for all the textView which represent the movie title (text--TEXT) and movie covers (images--Blobs)
+    public Main2Activity(TextView movie1, TextView movie2, TextView movie3, ImageView movie1cover, ImageView movie2cover, ImageView movie3cover) {
+        this.movie1 = movie1;
+        this.movie2 = movie2;
+        this.movie3 = movie3;
+        this.movie1cover = movie1cover;
+        this.movie2cover = movie2cover;
+        this.movie3cover = movie3cover;
+    }
 }
