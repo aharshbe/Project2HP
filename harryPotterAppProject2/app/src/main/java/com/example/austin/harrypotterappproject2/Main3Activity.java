@@ -9,7 +9,11 @@ import android.widget.TextView;
 public class Main3Activity extends AppCompatActivity {
 
     //References all the textView which will pull that data from the database for each movie
-    TextView plot, date, runtime,  topquote, gross;
+    TextView plot = (TextView) findViewById(R.id.plotlistview);
+    TextView date = (TextView) findViewById(R.id.datelistView);
+    TextView runtime = (TextView) findViewById(R.id.runtimelistView);
+    TextView topquote = (TextView) findViewById(R.id.topquotelistView);
+    TextView gross = (TextView) findViewById(R.id.grosslistView);
 
 
 
