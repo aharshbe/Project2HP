@@ -8,24 +8,36 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.austin.harrypotterappproject2.snapeDescription"
-    android:background="@drawable/background2">
+    android:background="@drawable/snapebackground">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/textduble"
         android:background="@drawable/snapetext"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="clickingsnape"/>
-
     <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/imagequotedumbl"
+        android:background="@drawable/snapeimage"
+        android:layout_below="@+id/textduble"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imagequotedumbl"
-        android:background="@drawable/snapequote"
-        android:layout_centerVertical="true"
-        android:layout_below="@+id/textduble"/>
+        android:text="'     You are here to learn the subtle science and exact art of potion-making. As there is little foolish wand-waving here, many of you will hardly believe this is magic. I don't expect you will really understand the beauty of the softly simmering cauldron with its shimmering fumes, the delicate power of liquids that creep through human veins, bewitching the mind, ensnaring the senses. . . I can teach you how to bottle fame, brew glory, even stopper death — if you aren't as big a bunch of dunderheads as I usually have to teach.'
+        ― J.K. Rowling, Harry Potter and the Sorcerer's Stone"
+        android:textColor="#B8860B"
+        android:id="@+id/snapequote"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
