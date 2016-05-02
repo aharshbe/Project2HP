@@ -51,7 +51,8 @@
         android:background="@drawable/book2cover"
         android:layout_below="@+id/bookstitle"
         android:layout_alignRight="@+id/bookstitle"
-        android:layout_alignEnd="@+id/bookstitle" />
+        android:layout_alignEnd="@+id/bookstitle"
+        android:onClick="booksback2"/>
     <ImageView
         android:layout_width="400dp"
         android:layout_height="117dp"

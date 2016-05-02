@@ -61,7 +61,8 @@
         android:background="@drawable/book3cover"
         android:layout_below="@+id/bookstitle"
         android:layout_alignRight="@+id/bookstitle"
-        android:layout_alignEnd="@+id/bookstitle" />
+        android:layout_alignEnd="@+id/bookstitle"
+        android:onClick="booksback3"/>
     <ImageView
         android:layout_width="150dp"
         android:layout_height="100dp"
