@@ -17,12 +17,12 @@ public class Main2Activity extends AppCompatActivity {
 
 
     //References the Image and TextViews so that I can set them against the database
-    TextView movie1, movie2, movie3;
-    ImageView movie1cover, movie2cover, movie3cover;
-
-
-
-
+    TextView movie1 = (TextView) findViewById(R.id.movie1);
+    TextView movie2 = (TextView) findViewById(R.id.movie2);
+    TextView movie3 = (TextView) findViewById(R.id.movie3);
+    ImageView movie1cover = (ImageView) findViewById(R.id.movie1cover);
+    ImageView movie2cover = (ImageView) findViewById(R.id.movie2cover);
+    ImageView movie3cover = (ImageView) findViewById(R.id.movie3cover);
 
 
     @Override
@@ -60,7 +60,6 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 
     //Creates a contructor for all the textView which represent the movie title (text--TEXT) and movie covers (images--Blobs)
     public Main2Activity(TextView movie1, TextView movie2, TextView movie3, ImageView movie1cover, ImageView movie2cover, ImageView movie3cover) {
