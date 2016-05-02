@@ -15,9 +15,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     //Creates database
     public static final String SQL_CREATE_MOVIE_TABLE =
+            "CREATE TABLE movies ( id INTEGER PRIMARY KEY, movie TEXT, cover BLOB )";
+    public static final String SQL_CREATE_MOVIEDESCRIPTION_TABLE =
             "CREATE TABLE movies ( id INTEGER PRIMARY KEY, plot TEXT, date TEXT, runtime TEXT, topquote TEXT, gross TEXT )";
     //Delete database
-    public static final String SQL_DROP_MOVIE_TABLE = "DROP TABLE IF EXISTS movies";
+    public static final String SQL_DROP_MOVIEDESCRIPTION_TABLE = "DROP TABLE IF EXISTS movies";
 
 
 
@@ -29,12 +31,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     //Creates the movies table when the data is created
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(SQL_CREATE_MOVIE_TABLE);
+        db.execSQL(SQL_CREATE_MOVIEDESCRIPTION_TABLE);
     }
 
     //Updates when data us upgraded and then deletes the movies table and recreates it
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(SQL_DROP_MOVIE_TABLE);
+        db.execSQL(SQL_DROP_MOVIEDESCRIPTION_TABLE);
         onCreate(db);
     }
 
