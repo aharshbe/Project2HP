@@ -7,9 +7,23 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 public class Main2Activity extends AppCompatActivity {
+
+
+    //References the Image and TextViews so that I can set them against the database
+    TextView movie1, movie2, movie3;
+    ImageView movie1cover, movie2cover, movie3cover;
+
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
