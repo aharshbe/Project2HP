@@ -23,7 +23,7 @@
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:id="@+id/imagequotedumbl"
-        android:background="@drawable/snapeimage"
+        android:background="@drawable/snapewand"
         android:layout_below="@+id/textduble"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
